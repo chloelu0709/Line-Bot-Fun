@@ -7,7 +7,7 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, VideoSendMessage,
     ImageSendMessage, TemplateSendMessage, ButtonsTemplate,
-    MessageTemplateAction, URITemplateAction, QuickReply, QuickReplyButton, MessageAction, PostbackTemplateAction, sendButton
+    MessageTemplateAction, URITemplateAction, QuickReply, QuickReplyButton, MessageAction, PostbackTemplateAction,
 )
 
 line_bot_api = LineBotApi('/QuUNskkkRvFAStIozl175abe0z8YAjdAmY9FreaWp9SR2qycfxwGE+JTKIp5gbOjXWZb3XJY8UjKLpOrb0gCXel4kEtFvNZZr5evUeXS+z/e/Qzwv46tYoPgELEutItqHLKZcyuv40a1wmCP25pZwdB04t89/1O/w1cDnyilFU=')
